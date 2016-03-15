@@ -1,0 +1,20 @@
+{
+  "name": "hw5",
+  "version": "1.0.0",
+  "description": "simple nodeJS server for uploading and storing images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "image",
+    "gallery"
+  ],
+  "author": "velmyk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "multiparty": "^4.1.2"
+  }
+}

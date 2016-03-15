@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<script>
+			function onFind(form) {
+				var imageName = form.imageName.value;
+				location.href='/find?name=' + imageName;
+			}
+		</script>
+	</head>
+	<body>
+		<form name="findImage" >
+			<input type="text" name="imageName">
+			<input type="button" name="find" value="Find Image" onClick="onFind(this.form)">
+		</form>
+	</body>
+</html>
